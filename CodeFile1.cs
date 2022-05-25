@@ -37,15 +37,21 @@
 
     }
 
-    public class Siniestros
-    {
+    public class Siniestros 
+    { 
         public int Nro_siniestro { get; set; }
         public int nro_poliza { get; set; }
-        public int cia_contraria { get; set; }
-        public int Nro_poliza_contraria { get; set; }
+        public string cia_contraria { get; set; }
+        public string Nro_poliza_contraria { get; set; }
         public string Matricula_contraria { get; set; }
-        public int Importe_siniestro { get; set; }
-        public string Fecha_pago { get; set; }
-        public string fecha_liquidacion { get; set; }
+        public int Importe_siniestro { get; set; } // Dinero para el taller
+        public string Fecha_pago { get; set; } // Fecha para el pago al taller
+        public string fecha_liquidacion { get; set; } 
+    }
+
+
+    public static void Main()
+    {
+
     }
 }
